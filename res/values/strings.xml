@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MediaPlayerActivity!</string>
+    <string name="app_name">MediaPlayer</string>
+    <string name="library">媒體櫃</string>
+    <string name="queue">佇列</string>
+    <string name="control">設定</string>
+
+</resources>

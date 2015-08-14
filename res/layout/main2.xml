@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical" >
+
+
+
+    <LinearLayout
+        android:id="@+id/videoFileTitleLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="true" >
+
+        <TextView
+            android:id="@+id/videoTitletextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageButton
+            android:id="@+id/videovolumnimageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/volume_icon" />
+
+        <ImageButton
+            android:id="@+id/videoMediaLibraryimageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/media_library" />
+    </LinearLayout>
+
+
+    <SurfaceView
+        android:id="@+id/surfaceView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.30" />
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/videotimeBarLayOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <SeekBar
+            android:id="@+id/videoSeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/videocontrolButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+
+        <ImageButton
+            android:id="@+id/video_media_play_Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@android:drawable/ic_media_play" />
+
+    </LinearLayout>
+
+</LinearLayout>

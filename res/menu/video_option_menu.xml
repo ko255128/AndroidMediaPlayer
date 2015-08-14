@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/switchToMusic" android:title="切換至音樂模式" android:checkable="false"></item>
+    <item android:id="@+id/videoQuite" android:title="結束"></item>
+    
+
+</menu>
